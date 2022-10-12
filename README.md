@@ -20,7 +20,7 @@ Many past works have worked on protein variant effect prediction (e.g. Riesselma
 
 ![image](README/effect_vs_gen.jpg)
 
-#### Inspiration 
+### Inspiration 
 This project aims to provide a zero-shot protein variant generation pipeline to aid Directed Evolution. Directed Evolution can be summarized as a two-step iterative cycle. The first step is to randomly mutate the naturally occurring protein sequence to construct a variant library. The second step is to experimentally measure the fitness of the variant library. 
 The majority of the studies in ML-guided directed evolution focused on the second step of directed evolution, where a regressor model is trained to replace the tedious experimental measurements (Biswas et al. [2021](https://www.nature.com/articles/s41592-021-01100-y), Hsu et al. [2022](https://www.nature.com/articles/s41587-021-01146-5), Luo et al. [2021](https://www.nature.com/articles/s41467-021-25976-8), Ma et al. [2021](https://pubs.acs.org/doi/abs/10.1021/acscatal.1c02786)). However, obtaining sufficient data to train the regressor model can still be labor-intensive. While mutant effect predictor in a zero- or few- shot mannar have been receiving much attention, to apply these models to construct a variant library, one needs to enumerate all possible combinations of mutations.   
 
